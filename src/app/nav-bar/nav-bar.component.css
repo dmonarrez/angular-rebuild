@@ -10,6 +10,8 @@ a {
   text-align: center;
   align-items: center;
   height: 80px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .nav-left {
@@ -20,6 +22,10 @@ a {
 
 }
 
+#nav-logo {
+  width: 130px;
+}
+
 .nav-right {
-  
+
 }
