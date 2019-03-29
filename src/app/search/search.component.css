@@ -34,8 +34,15 @@ h1 {
   flex-direction: column;
 }
 
-.home-page-tabs {
+.search-container .home-page-tabs {
+  display: flex;
+  flex-direction: row;
+}
 
+.search-container .home-page-tabs p {
+  border: solid 1px white;
+  width:151px;
+  height: 50px;
 }
 /* end search container styles */
 
