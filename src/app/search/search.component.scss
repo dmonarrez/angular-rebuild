@@ -12,17 +12,18 @@ h1 {
   height: 550px;
   background-image: url("../../assets/img/bg-image.jpg");
   background-size: cover;
+
+  .hero-fade {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    color: white;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
 }
 
-.hero-fade {
-  display: flex;
-  flex-direction: column;
-  /* justify-content: center; */
-  color: white;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.3);
-}
 /* end greater container styles */
 
 
