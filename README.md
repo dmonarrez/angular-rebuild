@@ -44,10 +44,14 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 The program has the nav bar layout nearly complete with missing functionality.
 The program has a near complete hero aspect similar to the one on the Zillow site.
 
-## Known Bugs
+## Developer Road Map
 
 The program still needs more aspects fleshed out nearly identical to the Zillow site.
 The program still has yet to be linked up to firebase for data storage and deployment.
+
+## Known Bugs
+
+N/A
 
 ## License
 
