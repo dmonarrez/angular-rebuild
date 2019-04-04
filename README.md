@@ -1,6 +1,15 @@
-# Angular
+# Zillow Angular Rebuild
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
+
+## Getting Started
+
+* Clone from https://github.com/dmonarrez/angular-rebuild
+* Find the file in your terminal and run `$ npm install` to get required packages
+
+## Description
+
+This project is a light rebuild of the Zillow webpage using Angular CLI to get practice building out pages and apps with Angular. This project also utilizes Firebase as a database and as a method of deployment.
 
 ## Development server
 
@@ -25,3 +34,23 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Authors
+
+* **David Monarrez** - [Github](https://github.com/dmonarrez)
+
+## Current Progress
+
+The program has the nav bar layout nearly complete with missing functionality.
+The program has a near complete hero aspect similar to the one on the Zillow site.
+
+## Known Bugs
+
+The program still needs more aspects fleshed out nearly identical to the Zillow site.
+The program still has yet to be linked up to firebase for data storage and deployment.
+
+## License
+
+Copyright (c) 2019 **_David Monarrez_**
+<br>
+MIT
