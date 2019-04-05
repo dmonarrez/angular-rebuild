@@ -9,23 +9,24 @@ a {
   grid-template-columns: 1fr 1fr 1fr;
   text-align: center;
   align-items: center;
-  height: 80px;
+  height: 10vh;
   padding-left: 50px;
   padding-right: 50px;
-}
+  border: 1px solid black;
 
-.nav-left {
+  .nav-left {
 
-}
+  }
 
-.nav-center {
+  .nav-center {
 
-}
+    #nav-logo {
+      width: 130px;
+    }
+  }
 
-#nav-logo {
-  width: 130px;
-}
 
-.nav-right {
+  .nav-right {
 
+  }
 }
