@@ -8,6 +8,7 @@ import { FootComponent } from './foot/foot.component';
 import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
+import { MainPageComponent } from './main-page/main-page.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -21,7 +22,8 @@ export const firebaseConfig = {
     AppComponent,
     NavBarComponent,
     SearchComponent,
-    FootComponent
+    FootComponent,
+    MainPageComponent
   ],
   imports: [
     BrowserModule,
