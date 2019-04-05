@@ -1,4 +1,23 @@
+h1 {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
 .hero {
   background-image: url('../../assets/img/bg-image2.jpg');
   height: 90vh;
+
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    .hero-heading {
+      text-align: center;
+      margin-top: 5%;
+    }
+  }
 }
