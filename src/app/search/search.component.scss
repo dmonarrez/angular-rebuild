@@ -33,12 +33,12 @@ h1 {
   order: 0;
   align-self: center;
   flex-direction: column;
+  .search-container .home-page-tabs {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
-.search-container .home-page-tabs {
-  display: flex;
-  flex-direction: row;
-}
 
 .search-container .home-page-tabs p {
   border: solid 1px white;
@@ -46,6 +46,7 @@ h1 {
   height: 50px;
 }
 /* end search container styles */
+//adding more styles to the site
 
 .bottom-banner {
   display: flex;
