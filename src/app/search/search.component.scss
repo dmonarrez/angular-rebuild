@@ -10,14 +10,37 @@ p {
   background-image: url('../../assets/img/bg-image2.jpg');
   height: 90vh;
 
+  //start hero container
   .hero-container {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+
+    //start hero heading
     .hero-heading {
       text-align: center;
       margin-top: 5%;
+
+      h1 {
+        font-family: 'Libre Baskerville', serif;
+        font-size: 60px;
+      }
+
+      p {
+        font-size: 22px;
+      }
+    }
+    //end hero heading
+
+    input {
+      width: 560px;
+      height: 70px;
+      border-radius: 5px;
+      border-width: 0;
+      padding: 22px 0px 22px 24px;
+
     }
   }
+  //end hero container
 }
