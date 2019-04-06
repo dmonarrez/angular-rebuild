@@ -2,10 +2,32 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
-## Getting Started
+## Installation
 
-* Clone from https://github.com/dmonarrez/angular-rebuild
-* Find the file in your terminal and run `$ npm install` to get required packages
+`git clone https://github.com/dmonarrez/angular-rebuild`
+
+`npm install` to install all dependencies
+
+## Firebase Credentials
+
+Must create a google account if you do not already have one
+
+Before serving the project, go to https://firebase.google.com/. You will see the option to "Add project". Select it.
+
+Click on the "Add FireBase to your web app" option (icon is </>).
+
+Add the following code to src/app/api-keys.ts and fill in the fields with your corresponding FireBase information:
+
+export const masterFirebaseConfig = {
+
+    apiKey: "xxxx",
+    authDomain: "xxxx.firebaseapp.com",
+    databaseURL: "https://xxxx.firebaseio.com",
+    storageBucket: "xxxx.appspot.com",
+    messagingSenderId: "xxxx"
+  };
+
+  /src/app/api-keys.ts is already added .gitignore file for FireBase information security.
 
 ## Description
 
@@ -41,13 +63,19 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Current Progress
 
-The program has the nav bar layout nearly complete with missing functionality.
-The program has a near complete hero aspect similar to the one on the Zillow site.
+The program design and layout had to be restarted from scratch despite the progress completed last week. Zillow updated their page at some point in the previous week so I lost the template I was working off of and had to redo the site with the new style and layout.
+
+The program has completed nav, search, and main page components (style and layout complete)
+
+The program is set up with firebase for database functionality.
+
+The program is deployed with firebase.
 
 ## Developer Road Map
 
-The program still needs more aspects fleshed out nearly identical to the Zillow site.
-The program still has yet to be linked up to firebase for data storage and deployment.
+The program still needs more aesthetic aspects fleshed out to be nearly identical to the Zillow site.
+
+The program needs to have sign up/ login functionality through firebase so there is data being stored and called from the database.
 
 ## Known Bugs
 
